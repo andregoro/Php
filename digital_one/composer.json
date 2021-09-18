@@ -1,0 +1,22 @@
+{
+    "name": "andregoro/digital_one",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andregoro",
+            "email": "34197591+andregoro@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search":"src/"
+        },
+        "psr-4": {
+            "Wead\\DigitalCep\\":"src/ "
+        }
+    }
+}
